@@ -54,7 +54,9 @@ header {
 
 #advanced-selectors li:nth-child(5) ul li a:hover {
     background-color: yellow;
-}
+    font-family: "Lobster";
+    color: orange;
+  }
 
 #advanced-selectors li:nth-child(5) ul li a:active {
     background-color: red;
