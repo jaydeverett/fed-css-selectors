@@ -6,7 +6,8 @@ html {
 }
 
 h1, h2 {
-  font-family: Georgia, Times, serif
+  font-family: "Patrick Hand SC", Times, serif;
+  color: #42A5D1;
 }
 
 header {
@@ -57,4 +58,15 @@ header {
 
 #advanced-selectors li:nth-child(5) ul li a:active {
     background-color: red;
+}
+
+#selectors header p {
+    font-family: "Bowlby One";
+    color: #D15A4F
+}
+
+#selectors section ul li:nth-child(2) a:hover {
+    font-family: "Lobster";
+    background-color: red;
+    color: blue;
 }
